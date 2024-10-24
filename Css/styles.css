@@ -1,0 +1,102 @@
+* {
+    margin: 1;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #070707;
+}
+main {
+    background-image: url(/Proyecto/Images/FondoPortada.jpg);
+    margin-block-end: 30px;
+}
+footer {
+    background-color: grey;
+    display: flex;
+    font-size: 24px;
+    justify-content: space-between;
+    padding: 10px;
+}
+.botones {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #070707;
+    padding: 20px;
+    transition: background-color 0.3s ease;
+    flex-wrap: wrap;
+}
+.home-contacto {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    font-family: "Agdasima", sans-serif;
+    font-weight: 400;
+    border-radius: 10px;
+    font-size: 24px;
+    text-decoration: none;
+}
+.home-contacto a {
+    text-decoration: none;
+    color: white;
+}
+.centro {
+    text-decoration: none;
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    color: white;
+    font-size: 24px;
+}
+.home:hover, .contacto:hover {
+    background-color: #ac2424;
+    transform: scale(1.1); 
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+}
+.centro:hover {
+    color: #ac2424;
+}
+.imgp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.titulos, .mod-disp, .ver-modelos, .analisis{
+    display: flex;
+    justify-content: center;
+}
+.titulos {
+    color: #ac2424;
+    font-size: 32px;
+    font-family: "Roboto Slab", serif;
+    font-weight: weight;
+    align-items: center;
+    overflow: hidden;
+}
+.mod-disp {
+    color: #ac2424;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    text-decoration: underline;
+    font-size: 32px;
+}
+.Destacados {
+    margin: 0 auto;
+    width: 90%; /* Ajusta el ancho según tus necesidades */
+    overflow-x: scroll;
+    white-space: nowrap;
+    text-align: center;
+}
+div, div > .preguntas, p { 
+    font-size: 24px;
+    padding: 20px;
+    text-align: justify;
+    text-indent: 2em;
+}
+.preguntas{
+    font-weight: bold;
+}
